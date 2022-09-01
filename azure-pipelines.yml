@@ -51,7 +51,7 @@ stages:
         includeRootFolder: false
         archiveType: 'zip'
         archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-        replaceExistingArchive: true
+        replaceExistingArchive: false
         verbose: true
  
     - upload: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
