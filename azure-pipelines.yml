@@ -12,7 +12,7 @@ variables:
   azureSubscription: 'Azure subscription 1(79cef94c-9dfb-4e8f-93ba-cdaad27555a3)'
   
   # Web app name
-  webAppName: 'web-app-new-om'
+  webAppName: 'om-flatris-new'
   
   # Resource group
   resourceGroupName: 'web-app'
